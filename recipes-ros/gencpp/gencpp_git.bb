@@ -5,10 +5,10 @@ LIC_FILES_CHKSUM = "file://package.xml;beginline=7;endline=7;md5=d566ef916e9dedc
 
 DEPENDS = "genmsg-native"
 
-PR = "r1"
+PR = "r2"
 
 SRC_URI = "git://github.com/ros/${BPN}.git;branch=relocatable"
-SRCREV = "d80b91f9faf8a5de5ed9ca05a26af201da90f918"
+SRCREV = "e5acaf690d6276d427f6b0ecaab67b52f55bbe8a"
 PV = "0.4.13+gitr${SRCPV}"
 
 S = "${WORKDIR}/git"
